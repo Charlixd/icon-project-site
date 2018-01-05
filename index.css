@@ -1,0 +1,62 @@
+body 
+{
+  font-family: 'Lucida Grande', Tahoma, Verdana, Arial, sans-serif;
+  background: #fff;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+  .wrapper{
+        display:grid;
+        grid-template-columns: 50% 50%;
+        grid-row-gap: 1em;
+        grid-auto-rows: 300px;
+}
+        
+   .wrapper > div{
+        background:#eee;
+        padding:1em;
+     }
+        
+    .wrapper > div:nth-child(odd){
+        background: #ddd;
+}
+
+
+
+
+
+.wrapper2 {
+        padding-bottom: 10px;
+        padding-left: 250px;
+        align-content: center;  
+}
+   
+        
+       }
+
+#image1{
+    max-height: 270px;
+   text-align: center;
+    left:40px;
+    
+}
+
+
+p {
+  
+  margin-left:auto;
+  margin-right:auto;
+  font-size: 120%;
+  width: 300px; /* whatever width you want */
+}  
+
+
+
+
+
+
+
