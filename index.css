@@ -1,28 +1,33 @@
 body 
 {
   font-family: 'Lucida Grande', Tahoma, Verdana, Arial, sans-serif;
-  background: #fff;
+  background: #FFE03C;
 }
 
 h1 {
     text-align: center;
+    font-family: 'Anton', sans-serif;
 }
 
 
   .wrapper{
         display:grid;
-        grid-template-columns: 50% 50%;
+        
         grid-row-gap: 1em;
         grid-auto-rows: 300px;
 }
         
    .wrapper > div{
-        background:#eee;
+        background:#FFB33C;
         padding:1em;
+        margin-left: auto;
+       margin-right: auto;
      }
         
     .wrapper > div:nth-child(odd){
-        background: #ddd;
+        background: #FFE03C;
+        margin-left: auto;
+        margin-right: auto;
 }
 
 
@@ -30,18 +35,20 @@ h1 {
 
 
 .wrapper2 {
-        padding-bottom: 10px;
-        padding-left: 250px;
-        align-content: center;  
+        padding-bottom: 10px; 
+        width: 125%;
+        margin-left: auto;
+        margin-right: auto;
 }
    
+
         
        }
 
-#image1{
-    max-height: 270px;
+.image1{
+    max-height: 300px;
    text-align: center;
-    left:40px;
+    left:80px;
     
 }
 
@@ -50,9 +57,45 @@ p {
   
   margin-left:auto;
   margin-right:auto;
-  font-size: 120%;
-  width: 300px; /* whatever width you want */
+  font-size: 19px;
+  width: 300px;
+  font-family: 'Anton', sans-serif;
 }  
+
+a{
+  
+  text-decoration: inherit;
+  display: inline-block;
+  background: #ff7200;
+  border-radius: 4px;
+  color: #FFF;
+  padding: 8px 12px;
+  cursor:pointer;     
+      
+}
+ 
+a:hover{
+    text-decoration: inherit;
+  display: inline-block;
+  background: #c63e00;
+  border-radius: 4px;
+  font-size: 15px;
+  color: #FFF;
+  padding: 8px 12px;
+  cursor:pointer; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
